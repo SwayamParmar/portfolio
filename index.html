@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Swayam Parmar</title>
+    <!-- bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./components/mediaQuery.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- boxicons Link -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- header section start -->
+        <header>
+            <nav class="navbar navbar-expand-lg bg-transparent py-4">
+                <div class="container-fluid d-flex mx-lg-1">
+                    <a class="navbar-brand fw-bold" href="./index.html">Swayam Parmar</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="true" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse mx-5" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item mx-3">
+                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="#projects">Projects</a>
+                            </li>
+                            <li class="nav-item dropdown mx-3">
+                                <a class="nav-link" href="#skills" role="button">Skills</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="#about">About Me</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="#services">Services</a>
+                            </li>
+                        </ul>
+                        <div class="wrapper">
+                            <a href="./contact.html">Contact <i class="bi bi-arrow-up-right fw-bold"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- header section end -->
+
+        <!-- Hero Section Start -->
+        <div class="heroSection min-vh-75 mx-height">
+            <div class="row my-lg-1 pb-0 pe-lg-0 pt-lg-1 align-items-center row-responsive">
+                <div class="col-lg-6 p-1 p-lg-1 pt-sm-1 text-responsive" id="about">
+                    <h1 class="display-4 fw-bold lh-1 text-body-emphasis small-font">👋 Hey There,</h1>
+                    <p class="lead py-2"> I'm an aspiring Web Developer seeking an opportunity to apply my passion for web
+                        development, strong problem-solving skills, and knowledge of cutting-edge technologies to
+                        contribute to dynamic and innovative web projects. Eager to learn and grow in a collaborative
+                        and fast-paced development environment.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                        <!-- <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button> -->
+                        <div class="about-btn">
+                            <div class="buttons my-3">
+                                <a class="py-3" href="./MY RESUME.pdf">View CV <i
+                                        class="bi bi-file-earmark-arrow-down"></i></a>
+                            </div>
+
+                            <div class="buttons my-3">
+                                <a class="py-3" href="./contact.html">Hire Me <i
+                                        class="bi bi-arrow-up-right fw-bold"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 offset-lg-1 p-0 overflow-hidden rounded-5 rounded-pill shadow-lg img-responsive">
+                    <img class="img-responsive" src="./assests/myphoto.png" alt="" width="520">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hero Section End -->
+
+    <!-- Provide Services Start -->
+    <div class="album py-5">
+        <div class="container" id="services">
+            <h1 class="fs-1 py-4 mx-3 d-block">Provide Services</h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 services">
+                <div class="col">
+                    <div class="card rounded-4 shadow-sm">
+                        <div class="card-img">
+                            <img src="./assests/frontend.svg" alt="Front-End-Development">
+                            <h1 class="fs-5 fw-semibold text-center">Front End Development</h1>
+                        </div>
+                        <div class="card-body">
+                            <hr>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="card-text">I like to code things from scratch, and enjoy bringing ideas to
+                                    life in the
+                                    browser Using Front End Technology Html, Css, JavaScript.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card rounded-4 shadow-sm">
+                        <div class="card-img back-img">
+                            <img src="./assests/backend.svg" alt="Back-End-Development">
+                            <h1 class="fs-5 fw-semibold text-center">Back End Development</h1>
+                        </div>
+                        <div class="card-body">
+                            <hr>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="card-text">I'm devoted Backend Developer providing services that enable
+                                    businesses to
+                                    prosper
+                                    in the digital environment.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card rounded-4 shadow-sm">
+                        <div class="card-img back-img">
+                            <img src="./assests/uidesign.svg" alt="Front-End-Development">
+                            <h1 class="fs-5 fw-semibold text-center">UI, UX Design</h1>
+                        </div>
+                        <div class="card-body">
+                            <hr>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="card-text">I'm an UI/UX designer with user research,
+                                    and collaborating with other departments to provide outstanding design results.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Provide Services End -->
+
+    <!-- Skills Section Start -->
+    <div class="container my-5 pt-lg-5 rounded-5 shadow skill-content skills bg-body" id="skills">
+        <p class="lead skill-color px-5">SKILLS & TOOLS</p>
+        <h1 class="fs-2 fw-semibold skills-text px-5">My Toolbox & Things I can do</h1>
+        <p class="lead skill-font skills-text px-5">THE SKILLS, TOOLS AND TECHNOLOGIES I USE TO BRING YOUR PRODUCTS TO LIFE
+        </p>
+        <div class="skill-grid my-5 py-5">
+            <div class="skill-item">
+                <img class="rounded-5 shadow bg-gradient my-2 p-2" src="./assests/html.png" alt="" srcset="">
+                <p class="nav-link skills-subtext">HTML5</p>
+            </div>
+            <div class="skill-item">
+                <img class="rounded-5 shadow bg-gradient my-2 p-2" src="./assests/css.png" alt="" srcset="">
+                <p class="nav-link skills-subtext">CSS3</p>
+            </div>
+            <div class="skill-item">
+                <img class="rounded-5 shadow bg-gradient my-2 p-2" src="./assests/bootstrap.svg" alt="" srcset="">
+                <p class="nav-link skills-subtext">Bootstrap 5</p>
+            </div>
+            <div class="skill-item">
+                <img class="rounded-5 shadow bg-gradient my-2 p-2" src="./assests/tailwind.png" alt="" srcset="">
+                <p class="nav-link skills-subtext">Tailwind CSS</p>
+            </div>
+            <div class="skill-item">
+                <img class="rounded-5 shadow bg-gradient my-2 p-2" src="./assests/javascript.png" alt="" srcset="">
+                <p class="nav-link skills-subtext">JavaScript ES6</p>
+            </div>
+
+            <div class="skill-item">
+                <img class="rounded-5 shadow bg-gradient my-2 p-2" src="./assests/jquery.svg" alt="" srcset="">
+                <p class="nav-link skills-subtext">jQuery</p>
+            </div>
+
+            <div class="skill-item">
+                <img class="rounded-5 shadow bg-gradient my-2 p-2" src="./assests/node.png" alt="" srcset="">
+                <p class="nav-link skills-subtext">Node</p>
+            </div>
+            <div class="skill-item">
+                <img class="rounded-5 shadow bg-gradient my-2 p-2" src="./assests/github.svg" alt="" srcset="">
+                <p class="nav-link skills-subtext">GitHub</p>
+            </div>
+            <div class="skill-item">
+                <img class="rounded-5 shadow bg-gradient my-2 p-2" src="./assests/react.png" alt="" srcset="">
+                <p class="nav-link skills-subtext">React</p>
+            </div>
+            <div class="skill-item">
+                <img class="rounded-5 shadow bg-gradient my-2 p-2" src="./assests/mySql.svg" alt="" srcset="">
+                <p class="nav-link skills-subtext">MYSQL</p>
+            </div>
+            <div class="skill-item">
+                <img class="rounded-5 shadow bg-gradient my-2 p-2" src="./assests/mongo.png" alt="" srcset="">
+                <p class="nav-link skills-subtext">MongoDB</p>
+            </div>
+            <div class="skill-item">
+                <img class="rounded-5 shadow bg-gradient my-2 p-2" src="./assests/postman.svg" alt="" srcset="">
+                <p class="nav-link skills-subtext">Postman</p>
+            </div>
+            <div class="skill-item">
+                <img class="rounded-5 shadow bg-gradient my-2 p-2" src="./assests/vscode.svg" alt="" srcset="">
+                <p class="nav-link skills-subtext">VScode</p>
+            </div>
+        </div>
+    </div>
+    <!-- Skills Section End -->
+
+    <!-- Projects Section start -->
+    <div class="album py-5">
+        <div class="container" id="projects">
+            <h1 class="fs-1 py-4 mx-3 d-block">Projects</h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 services">
+                <div class="col">
+                    <div class="card rounded-4 shadow-sm py-3">
+                        <div class="card-img">
+                            <img src="./assests/blog.png" alt="Front-End-Development">
+                            <h1 class="fs-5 fw-semibold pt-3 text-center">Blog Website</h1>
+                        </div>
+                        <div class="card-body">
+                            <hr>
+                            <div class="d-block">
+                                <p class="card-text">Created a Responsive Blog website using HTML, CSS, JavaScript.</p>
+                                <a href="https://github.com" class="">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card rounded-4 shadow-sm py-3">
+                        <div class="card-img">
+                            <img class="py-3" src="./assests/food.png" alt="Back-End-Development">
+                            <h1 class="fs-5 fw-semibold text-center">Food Ordering Website</h1>
+                        </div>
+                        <div class="card-body">
+                            <hr>
+                            <div class="d-block">
+                                <p class="card-text">Created a Responsive Online Food Ordering Website using CSS,
+                                    Bootstrap 5
+                                    and JavaScript.</p>
+                                <a href="https://github.com" class="">Live Demo</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card rounded-4 shadow-sm py-3">
+                        <div class="card-img">
+                            <img class="py-1" src="./assests/weather.png" alt="Front-End-Development">
+                            <h1 class="fs-5 fw-semibold py-1 text-center">Weather Web App</h1>
+                        </div>
+                        <div class="card-body">
+                            <hr>
+                            <div class="d-block">
+                                <p class="card-text">Created a Weather Web App using RAPID API and CSS3, Bootstrap 5 and
+                                    JavaScript.</p>
+                                <a href="https://github.com">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects Section end -->
+
+
+    <!-- Third Section Start -->
+    <div class="px-4 py-5 text-center">
+        <div class="py-5">
+            <h1 class="display-4 fw-bold lh-1 text-body-emphasis small-font">Have a Project in Mind?</h1>
+            <h1 class="display-4 fw-bold lh-1 text-body-emphasis small-font">Let's get to Work. 👋📩</h1>
+        </div>
+
+        <div class="d-grid gap-2 justify-content-sm-center wrapper">
+            <div class=" buttons my-2 btn-center">
+                <a class="py-3" href="./contact.html">Say Hello <i class="bi bi-arrow-up-right fw-bold"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- third section End -->
+
+    <!-- footer section -->
+    <div class="container">
+        <hr>
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 footer-center">
+            <!-- social links -->
+            <ul class="list-unstyled d-flex footer-center footer-links">
+                <li class="ms-3"><a href="https://instagram.com/swayu_1012?igshid=NzZlODBkYWE4Ng=="
+                        class="social-links bx-fade-up-hover text-white bg-dark p-1 px-2 rounded-5 shadow-sm" href="#">
+                        <i class="bi bi-instagram"></i></a></li>
+
+                <li class="ms-3"><a href="https://www.linkedin.com/in/swayam-parmar-988a45214/"
+                        class="social-links bx-fade-up-hover text-white bg-dark p-1 px-2 rounded-5 shadow-sm" href="#">
+                        <i class="bi bi-linkedin"></i></a></li>
+
+                <li class="ms-3"><a href="https://github.com/SwayamParmar"
+                        class="social-links bx-fade-up-hover text-white bg-dark p-1 px-2 rounded-5 shadow-sm" href="#">
+                        <i class="bi bi-github"></i></a></li>
+            </ul>
+
+            <!-- links -->
+            <ul class="list-unstyled d-flex footer-center footer-links">
+                <li class="px-2"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="px-2"><a class="nav-link" href="#services">Services</a></li>
+                <li class="px-2"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="px-2"><a class="nav-link" href="#about">About Me</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>

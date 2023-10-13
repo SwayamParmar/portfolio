@@ -1,0 +1,87 @@
+
+@media only screen and (max-width : 1000px) {
+    .row-responsive{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .mx-height{
+        max-height: 80vh;
+    }
+    .text-responsive{
+        margin: 40px;
+        max-width: 80vw;
+    }
+    
+    .img-responsive{
+        max-width: 90vw;
+        margin: auto;
+        padding-left: 25px;
+    }
+    .heroSection{
+        margin-top: 30%;
+    }
+
+    .small-font{
+        font-size: var(--text-fonts);
+    }
+    .btn-center{
+        max-width: 30vw;
+        margin: auto;
+    }
+    .footer-center{
+        max-width: 90vw;
+        margin: auto;
+    }
+    .footer-ul {
+        margin: 10px;
+    }
+    .footer-links {
+        padding: 10px;
+    }
+    .skill-content{
+        padding-top: 2rem;
+    }
+    .skills-text{
+        font-size: 0.7rem;
+    }
+    
+    .skills-subtext{
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .services {
+        max-width: 90vw;
+        margin: auto;
+    }
+    
+    .skills {
+        max-width: 90vw;
+        margin: auto;
+    }
+
+    .about-btn{
+        display: flex;
+        flex-direction: row;
+        font-size: var(--text-fonts);
+        gap: 1rem;
+    }
+}
+
+@media only screen and (max-width:1100px) {
+    .skill-grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 40px 0;
+    }
+}
+
+
+@media only screen and (max-width:850px) {
+    .skill-grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
